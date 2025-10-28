@@ -6,7 +6,7 @@
 /*   By: anadal-g <anadal-g@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/01/15 10:00:00 by anadal-g          #+#    #+#             */
-/*   Updated: 2024/01/15 10:00:00 by anadal-g         ###   ########.fr       */
+/*   Updated: 2025/10/28 12:26:30 by anadal-g         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ int	main(int argc, char **argv)
 
 	if (argc < 5 || argc > 6)
 	{
-		printf("Usage: %s nb_philo time_to_die time_to_eat time_to_sleep", 
+		printf("Usage: %s nb_philo time_to_die time_to_eat time_to_sleep",
 			argv[0]);
 		printf(" [nb_must_eat]\n");
 		return (1);
